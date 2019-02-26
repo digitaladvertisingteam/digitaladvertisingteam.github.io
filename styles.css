@@ -20,6 +20,7 @@ body {
 	
 }
 .jumbotron.blog {
+  padding-top: 50px;
   height: 100vh;
   background-color: #fff;
   background: url('./assets/img/Blog Digital Advertising Team.jpeg') no-repeat fixed top;
