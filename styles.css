@@ -17,6 +17,14 @@ body {
   background-color: #fff;
   background: url('./assets/img/Marketing digital.jpeg') no-repeat fixed top;
   background-size: cover;
+	
+}
+.jumbotron.blog {
+  height: 100vh;
+  background-color: #fff;
+  background: url('./assets/img/Blog Digital Advertising Team.jpeg') no-repeat fixed top;
+  background-size: cover;
+	
 }
 .promo-block-divider {
   width:50%; 
