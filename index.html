@@ -72,13 +72,15 @@
     <main role="main">
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <div class="container">
+      <div class="jumbotron ">
+        <div class="container pt-5 text-center">
           <h1 class="display-3 title text-primary">Digital Advertising Team </h1>
           <h2 class="display-5 subtitle text-danger">Marketing, Comunicación y Diseño Digital</h2>
           <div class="promo-block-divider"> </div>
-        <p class="lead text-danger">Invertimos nuestro tiempo, experiencia y capital para ayudar a que su negocio crezca.</p>
+        <p class="lead text-danger inversion">Invertimos nuestro tiempo, experiencia y capital para ayudar a que su negocio crezca.</p>
         <a href="https://www.facebook.com/Digital-Advertising-Team-390669248156590/" class="social-icons"><i class="icon-social-facebook"></i></a>
+        <a href="#" class="social-icons"><i class="icon-social-instagram"></i></a>
+        <a href="#" class="social-icons"><i class="icon-social-twitter"></i></a>
         </div>
       </div>
 
@@ -178,6 +180,29 @@
           </div>
         </div>
         <!--End Team-->
+        <hr class="featurette-divider">
+        <!--Proyects in time-->
+        <div class="container">
+          <div class="row featurette pt-5 pb-5">
+            <div class="col-12 col-sm-12 col-lg-3">
+              <h2>Colaboración actual</h2>
+              <p class="lead">Desarrollo de Sitio Web</p>
+              <a href="https://escueladelrebozo.com/">Escuela del Rebozo</a>
+              <!--img class="featurette-image img-fluid mx-auto" src="assets/img/imagine.png" alt=""-->
+            </div>
+            <div class="col-12 col-sm-12 col-lg-9 d-sm-flex flex-column justify-content-sm-center align-items-sm-center">
+                <h2 class="featurette-heading"><span class="text-muted">Escuela del Rebozo</span>, Tenancingo.</h2>
+                <p class="lead text-justify">La <span class="text-muted">Escuela del rebozo</span> fue una gestión realizada 
+                 por la Asociación <span class="text-muted">“Unión de Artesanos Reboceros y Empuntadoras A.C.”</span> creada 
+                  en el año 2007, con la finalidad de solicitar la marca registrada del REBOZO DE TENANCINGO, denominación 
+                  que ya se logro.</p>
+                <p class="lead text-justify">De esta manera se se gestiono al FONART el proyecto de la <span class="text-muted">Escuela Taller de Rebozo 
+                de Tenancingo</span>, gracias a la Mtra Liliana Romero Medina quien apoyo este proyecto, que esta a punto de iniciar.</p>
+                <p class="lead text-justify">Gracias a las instancias que ha apoyado este proyecto, el gobierno Federal, Estatal y del propio municipio.</p>
+            </div>
+          </div>
+        </div> 
+        <!--Proyects in time-->
         <hr class="featurette-divider">
         <!--Services-->
         <div class="container" id="services">
@@ -346,6 +371,28 @@
         </div>
       </div>
       <!--End Clients-->
+        <!--Shares--> 
+      <div class="share">
+       <p>Share</p>
+      </div>
+      <div class="sharebuttons d-flex flex-column">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" class="facebook" target="_blank"><i class="icon-social-facebook"></i></a>
+        <a href="https://twitter.com/intent/tweet?text=<?php the_title(); ?>&url=<?php the_permalink(); ?>&via=<?php echo get_the_author_meta( 'twitter', 1 ); ?>" class="twitter" target="_blank"><i class="icon-social-twitter"></i></a>
+        <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" class="google"><i class="icon-social-google" target="_blank"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php the_permalink(); ?>&title=<?php the_title(); ?>&source=<?php the_title(); ?>" class="linkedin"><i class="icon-social-linkedin" target="_blank"></i></a>
+        <a href="https://pinterest.com/pin/create/button/?url=<?php the_permalink(); ?>&description=<?php bloginfo('description'); ?>&media=<?php echo $image[0]; ?>" class="pinterest" target="_blank"><i class="icon-social-pinterest"></i></a>
+      </div>
+      <!--End Shares-->
+      <hr class="featurette-divider">
+
+      <div class="container text-center pt-5 pb-5">
+          <h2 class="featurette-heading team-get pb-5">Comparte <span class="text-muted">nuestro Sitio.</span></h2>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" class="social-icons" target="_blank"><i class="icon-social-facebook"></i></a>
+          <a href="https://twitter.com/intent/tweet?text=<?php the_title(); ?>&url=<?php the_permalink(); ?>&via=<?php echo get_the_author_meta( 'twitter', 1 ); ?>" class="social-icons" target="_blank"><i class="icon-social-twitter"></i></a>
+          <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" class="social-icons"><i class="icon-social-google" target="_blank"></i></a>
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php the_permalink(); ?>&title=<?php the_title(); ?>&source=<?php the_title(); ?>" class="social-icons"><i class="icon-social-linkedin" target="_blank"></i></a>
+          <a href="https://pinterest.com/pin/create/button/?url=<?php the_permalink(); ?>&description=<?php bloginfo('description'); ?>&media=<?php echo $image[0]; ?>" class="social-icons" target="_blank"><i class="icon-social-pinterest"></i></a>
+        </div>
       
     </div>
   </main>
@@ -377,6 +424,8 @@
           brevedad posible.</p>
           <p class="lead">Siguenos en nuestras redes sociales</p>
           <a href="https://www.facebook.com/Digital-Advertising-Team-390669248156590/" class="social-icons"><i class="icon-social-facebook"></i></a>
+          <a href="#" class="social-icons"><i class="icon-social-instagram"></i></a>
+          <a href="#" class="social-icons"><i class="icon-social-twitter"></i></a>
         </div>
       </div>
     </div>
