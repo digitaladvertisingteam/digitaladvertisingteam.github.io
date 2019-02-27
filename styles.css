@@ -17,7 +17,6 @@ body {
   background-color: #fff;
   background: url('./assets/img/Marketing digital.jpeg') no-repeat fixed top;
   background-size: cover;
-	
 }
 .jumbotron.blog {
   padding-top: 70px;
@@ -27,14 +26,37 @@ body {
   background-size: cover;
 	
 }
+.bg-cover {
+  background-size: cover;
+  color: white;
+  background-position: center center;
+  position: relative;
+  z-index: -2;
+}
+
+.overlay {
+  background-color: #000;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.jumbotron .inversion, .carrpar{
+  font-weight: 500;
+  text-shadow: ;
+}
 .promo-block-divider {
-  width:50%; 
+  width: 100%; 
   border-bottom: 1px solid rgba(255, 255, 255, 0.9);
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
 .social-icons {
-  color: #333;
+  color: #000;
+  background: #fff;
   border-radius: 50%;
   padding: 11px;
   transition-duration: 300ms;
@@ -42,8 +64,8 @@ body {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 .social-icons:hover {
-  color: #515769;
-  background: #fff;
+  color: #fff;
+  background: #000;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -60,6 +82,7 @@ body {
     font-size: 1em;
   }
 }
+
 .team-get{
   font-size: 2.5em;
 }
@@ -132,7 +155,7 @@ body {
 }
 .desk, .desk h4, .team-hover .s-link a {
   text-align: center;
-  color: #222;
+  color: #000;
 }
 .team-member:hover .team-hover .s-link {
   bottom: 10%;
@@ -151,14 +174,17 @@ body {
   transition: all 0.3s 0.2s;
   font-size: 35px;
 }
-.desk, .desk h4, .team-hover .s-link a {
-  text-align: center;
-  color: #222;
-}
+
 .team-member .s-link a {
   margin: 0 10px;
-  color: #333;
+  color: #000;
+  background: #fff;
   font-size: 16px;
+}
+/*agregado hover para tarjetas de team*/
+.s-link a:hover {
+  color: #fff;
+  background: #000;
 }
 .team-title {
   position: static;
@@ -303,6 +329,30 @@ body {
 }
 .whatsapp:hover .fa-whatsapp {
   color: #fff;
+}
+.share{
+  color:#000;
+  position: fixed;
+  left:1%;
+  top:45%;
+  z-index: 3;
+}
+.share:hover{
+  color: #c0bdbd;
+}
+.sharebuttons{
+  background: #000;
+  padding: 10px;
+  border-radius: 20px;
+  position: fixed;
+  left:1%;
+  top:50%;
+  z-index: 3;
+}
+@media (max-width: 500px) {
+  .sharebuttons{
+    display:none; 
+  }
 }
 footer a {
   display: inline-block;
