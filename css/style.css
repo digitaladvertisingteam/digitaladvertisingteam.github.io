@@ -1,0 +1,167 @@
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 72px);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(188, 194, 198, 0.8)), to(rgba(43, 61, 78, 0.5))), url("../img/Marketing digital.jpeg");
+    background: linear-gradient(to bottom, rgba(188, 194, 198, 0.8) 0%, rgba(43, 61, 78, 0.5) 100%), url("../img/Marketing digital.jpeg");
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Blog*/
+header.masthead.blog {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(188, 194, 198, 0.8)), to(rgba(43, 61, 78, 0.5))), url("../img/blog.jpeg");
+  background: linear-gradient(to bottom, rgba(188, 194, 198, 0.8) 0%, rgba(43, 61, 78, 0.5) 100%), url("../img/blog.jpeg");
+  background-attachment: fixed;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*Social icons*/
+.social-icons {
+    color: #000;
+    background: #fff;
+    border-radius: 50%;
+    padding: 11px;
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  }
+  .social-icons:hover {
+    color: #fff;
+    background: #000;
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  }
+/*End Social icons*/
+/*Team*/
+.team-member, .team-member .team-img {
+    position: relative;
+  }
+  .team-member {
+    overflow: hidden;
+  }
+  .team-member, .team-member .team-img {
+    position: relative;
+  }
+  
+  .team-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    border: 20px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.90);
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  .team-member:hover .team-hover .desk {
+    top: 35%;
+  }
+  .team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
+    opacity: 1;
+  }
+  .team-hover .desk {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: translateY(-55%);
+    transform: translateY(-55%);
+    transition: all 0.3s 0.2s;
+    padding: 0 20px;
+  }
+  .desk, .desk h4, .team-hover .s-link a {
+    text-align: center;
+    color: #000;
+  }
+  .team-member:hover .team-hover .s-link {
+    bottom: 10%;
+  }
+  .team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
+    opacity: 1;
+  }
+  .team-hover .s-link {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    -webkit-transform: translateY(45%);
+    transform: translateY(45%);
+    transition: all 0.3s 0.2s;
+    font-size: 35px;
+  }
+  
+  .team-member .s-link a {
+    margin: 0 10px;
+    color: #000;
+    background: #fff;
+    font-size: 16px;
+  }
+  /*agregado hover para tarjetas de team*/
+  .s-link a:hover {
+    color: #fff;
+    background: #000;
+  }
+  .team-title {
+    position: static;
+    padding: 20px 0;
+    display: inline-block;
+    letter-spacing: 2px;
+    width: 100%;
+  }
+  .team-title h5 {
+    margin-bottom: 0px;
+    display: block;
+    text-transform: uppercase;
+  }
+  .team-title span {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #a5a5a5;
+    letter-spacing: 1px;
+  }
+  
+/*End Team*/
+/*Carousel*/
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*End Carousel*/
+/*Shares*/
+.share{
+    color:#000;
+    position: fixed;
+    left:1%;
+    top:45%;
+    z-index: 3;
+}
+.share:hover{
+    color: #c0bdbd;
+}
+.sharebuttons{
+    background: #000;
+    padding: 10px;
+    border-radius: 20px;
+    position: fixed;
+    left:1%;
+    top:50%;
+    z-index: 3;
+}
+/*Menu footer*/
+.smoothscroll {
+    display: inline-block;
+    padding: .5rem 1rem;
+  }
