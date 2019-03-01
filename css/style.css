@@ -139,7 +139,7 @@ header.masthead.blog {
     -o-background-size: cover;
     background-size: cover;
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .carousel-caption h3 {
     font-size: 1em;
   }
