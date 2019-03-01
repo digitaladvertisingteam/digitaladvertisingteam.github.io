@@ -19,6 +19,20 @@ header.masthead.blog {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media (max-width: 576px) {
+  header.masthead h1 {
+    font-size: 2em;
+  }
+  header.masthead h2 {
+    font-size: 1.2em;
+  }
+  header.masthead.blog h1{
+    font-size: 2em;
+  }
+  header.masthead.blog h2{
+    font-size: 1.2em;
+  }
+}
 /*Social icons*/
 .social-icons {
     color: #000;
