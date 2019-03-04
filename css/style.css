@@ -65,7 +65,7 @@ svg {
   transition-delay: 333ms;
 }
 .logo-svg:hover .logo-type-group .logo-type {
-  fill: #64B5F6;
+  fill: #212121;
   opacity: 1;
 }
 .logo-svg:hover .logo-type {
