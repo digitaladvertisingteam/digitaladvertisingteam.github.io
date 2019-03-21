@@ -38,3 +38,8 @@ module.controller('NumberController', function($scope) {
   }
 });
 
+  $(".hover").mouseleave(
+    function() {
+      $(this).removeClass("hover");
+    }
+  );
