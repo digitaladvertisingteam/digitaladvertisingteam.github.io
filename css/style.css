@@ -1,293 +1,132 @@
-/*svg*/
-svg {
-  margin-top: 5px;
-}
-
-[class*="logo-"] {
-  -webkit-transition: all 333ms ease-out;
-  -moz-transition: all 333ms ease-out;
-  -o-transition: all 333ms ease-out;
-  transition: all 333ms ease-out;
-}
-
-.logo-svg {
-  transition-delay: 222ms;
-}
-
-.logo-c {
-  fill: #607D8B;
-  transition-delay: 444ms;
-}
-
-[class*="logo-m-left-"] {
-  transition-delay: 388.5ms;
-}
-
-.logo-m-left-1 {
-  fill: #BDBDBD;
-}
-
-.logo-m-left-2 {
-  opacity: 0.4;
-  fill: #555;
-}
-
-.logo-m-right {
-  fill: #555;
-  transition-delay: 333ms;
-}
-
-.logo-type {
-  opacity: 0;
-  transition-delay: 0ms;
-}
-
-.logo-svg:hover {
-  margin-left: 0;
-  transition-delay: 0ms;
-}
-.logo-svg:hover .logo-c {
-  fill: #4FC3F7;
-  transition-delay: 222ms;
-}
-.logo-svg:hover [class*="logo-m-left-"] {
-  transition-delay: 277.5ms;
-}
-.logo-svg:hover .logo-m-left-1 {
-  fill: #2962FF;
-}
-.logo-svg:hover .logo-m-left-2 {
-  opacity: 0.4;
-  fill: #EC008C;
-}
-.logo-svg:hover .logo-m-right {
-  fill: #F9ED32;
-  transition-delay: 333ms;
-}
-.logo-svg:hover .logo-type-group .logo-type {
-  fill: #212121;
-  opacity: 1;
-}
-.logo-svg:hover .logo-type {
-  transition-delay: 388.5ms;
-}
-.logo-svg:hover .logo-type-code-c {
-  transition-delay: 444ms;
-  font-size: 0.5em;
-}
-.logo-svg:hover .logo-type-code-da {
-  transition-delay: 444ms;
-  font-size: 1.5em;
-}
-.logo-svg:hover .logo-type-code-o {
-  transition-delay: 471.75ms;
-}
-.logo-svg:hover .logo-type-code-d {
-  transition-delay: 499.5ms;
-}
-.logo-svg:hover .logo-type-code-e {
-  transition-delay: 527.25ms;
-}
-.logo-svg:hover .logo-type-motel-m {
-  transition-delay: 444ms;
-}
-.logo-svg:hover .logo-type-motel-o {
-  transition-delay: 471.75ms;
-}
-.logo-svg:hover .logo-type-motel-t {
-  transition-delay: 499.5ms;
-}
-.logo-svg:hover .logo-type-motel-e {
-  transition-delay: 527.25ms;
-}
-.logo-svg:hover .logo-type-motel-l {
-  transition-delay: 555ms;
-}
-
-/*End svg*/
 header.masthead {
-    padding-top: 10rem;
+    padding-top: 4rem;
     padding-bottom: calc(10rem - 72px);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(188, 194, 198, 0.8)), to(rgba(43, 61, 78, 0.5))), url("../img/Marketing digital.jpeg");
-    background: linear-gradient(to bottom, rgba(188, 194, 198, 0.8) 0%, rgba(43, 61, 78, 0.5) 100%), url("../img/Marketing digital.jpeg");
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.2)), to(rgba(92, 77, 66, 0.1))), url("../img/bg-cta.jpg");
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.2) 0%, rgba(92, 77, 66, 0.1) 100%), url("../img/bg-cta.jpg");
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
+    /*background-attachment: scroll;*/
     background-size: cover;
 }
-/*Blog*/
-header.masthead.blog {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 72px);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(188, 194, 198, 0.8)), to(rgba(43, 61, 78, 0.5))), url("../img/blog.jpeg");
-  background: linear-gradient(to bottom, rgba(188, 194, 198, 0.8) 0%, rgba(43, 61, 78, 0.5) 100%), url("../img/blog.jpeg");
-  background-attachment: fixed;
-  background-position: center; 
-  background-repeat: no-repeat;
-  background-size: cover;
+.team-member img.w3{
+    width: 100px;
+    height:auto ;
 }
-@media (max-width: 576px) {
-  header.masthead h1 {
-    font-size: 2em;
-  }
-  header.masthead h2 {
-    font-size: 1.2em;
-  }
-  header.masthead.blog h1{
-    font-size: 2em;
-  }
-  header.masthead.blog h2{
-    font-size: 1.2em;
-  }
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+/* ---------------------- */
+/*       TESTIMONIAL      */
+/* ---------------------- */
+.parallax-section{
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: relative;
 }
-/*Social icons*/
-.social-icons {
-    color: #000;
-    background: #fff;
-    border-radius: 50%;
-    padding: 11px;
-    transition-duration: 300ms;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-  }
-  .social-icons:hover {
-    color: #fff;
-    background: #000;
-    transition-duration: 300ms;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-  }
-/*End Social icons*/
-/*Team*/
-.team-member, .team-member .team-img {
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+#testimonial{
+	padding: 130px 0 95px;
+	background-image: url(../images/bg-testimonial.jpg);
+}
+#testimonial .overlay{
+	background: rgba(66, 174, 236, 0.8);
+}
+.ts-testimonial-slide{
+	text-align: center;
+	color: #ffffff;
+	width: 85%;
+	margin: 0 auto;
+}
+.ts-testimonial-slide p{
+	font-size: 24px;
+	line-height: 36px;
+	font-style: italic;
+	font-family: 'Droid Serif';
+	margin-bottom: 35px;
+}
+.ts-testimonial-slide .ts-testimonial-item {
+  margin-bottom: 15px;
+}
+.ts-testimonial-slide .ts-testimonial-item .icon-client{
+	background: #ffffff;
+	width: 29px;
+	height: 29px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	text-align: center;
+	line-height: 29px;
+	margin-top: 2px;
+}
+.ts-testimonial-slide .ts-testimonial-item .infor-client {
+  display: inline-block;
+  margin: 0 auto;
+  width: auto;
+}
+.ts-testimonial-slide .ts-testimonial-item  .client-name{
+	padding-left: 38px;
+	font-size: 12.8px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	display: block;
+	line-height: normal;
+	white-space: nowrap;
+}
+.ts-testimonial-slide .ts-testimonial-item  .client-position{
+	font-size: 12px;
+	font-style: italic;
+	line-height: normal;
+	padding-left: 38px;
+	display: block;
+	text-align: left;
+}
+.ts-testimonial-slide .ts-testimonial-item  .client-position a{
+	color: white;
+}
+.ts-testimonial-slide .ts-testimonial-item  .client-position a:hover{
+	color: #5ed9e7;
+}
+.footer.has-cards
+{
     position: relative;
-  }
-  .team-member {
+
     overflow: hidden;
-  }
-  .team-member, .team-member .team-img {
-    position: relative;
-  }
-  
-  .team-hover {
+
+    margin-top: -420px;
+    padding-top: 500px;
+
+    pointer-events: none; 
+
+    background: transparent;
+}
+.footer.has-cards:before
+{
     position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
+    top: 450px;
     right: 0;
-    margin: 0;
-    border: 20px solid rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.90);
-    opacity: 0;
-    transition: all 0.3s;
-  }
-  .team-member:hover .team-hover .desk {
-    top: 35%;
-  }
-  .team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
-    opacity: 1;
-  }
-  .team-hover .desk {
-    position: absolute;
-    top: 0%;
-    width: 100%;
-    opacity: 0;
-    -webkit-transform: translateY(-55%);
-    transform: translateY(-55%);
-    transition: all 0.3s 0.2s;
-    padding: 0 20px;
-  }
-  .desk, .desk h4, .team-hover .s-link a {
-    text-align: center;
-    color: #000;
-  }
-  .team-member:hover .team-hover .s-link {
-    bottom: 10%;
-  }
-  .team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
-    opacity: 1;
-  }
-  .team-hover .s-link {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    opacity: 0;
-    text-align: center;
-    -webkit-transform: translateY(45%);
-    transform: translateY(45%);
-    transition: all 0.3s 0.2s;
-    font-size: 35px;
-  }
-  
-  .team-member .s-link a {
-    margin: 0 10px;
-    color: #000;
-    background: #fff;
-    font-size: 16px;
-  }
-  /*agregado hover para tarjetas de team*/
-  .s-link a:hover {
-    color: #fff;
-    background: #000;
-  }
-  .team-title {
-    position: static;
-    padding: 20px 0;
-    display: inline-block;
-    letter-spacing: 2px;
-    width: 100%;
-  }
-  .team-title h5 {
-    margin-bottom: 0px;
-    display: block;
-    text-transform: uppercase;
-  }
-  .team-title span {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #a5a5a5;
-    letter-spacing: 1px;
-  }
-  
-/*End Team*/
-/*Carousel*/
-.carousel-item {
-    height: 65vh;
-    min-height: 350px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    left: 0;
+
+    height: 2000px;
+
+    content: '';
+    transform: skew(0, -10deg); 
+
+    background: #f4f5f7;
 }
-@media (max-width: 576px) {
-  .carousel-caption h3 {
-    font-size: 1em;
-  }
+.footer.has-cards .container
+{
+    position: relative; 
+
+    pointer-events: auto;
 }
-/*End Carousel*/
-/*Shares*/
-.share{
-    color:#000;
-    position: fixed;
-    left:1%;
-    top:45%;
-    z-index: 3;
-}
-.share:hover{
-    color: #c0bdbd;
-}
-.sharebuttons{
-    background: #000;
-    padding: 10px;
-    border-radius: 20px;
-    position: fixed;
-    left:1%;
-    top:50%;
-    z-index: 3;
-}
-/*Menu footer*/
-.smoothscroll {
-    display: inline-block;
-    padding: .5rem 1rem;
-  }
