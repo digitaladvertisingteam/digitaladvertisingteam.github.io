@@ -5682,7 +5682,7 @@ blockquote {
 .container-img-2 {
     height: 500px;
     margin-top: -55px;
-    background-image: url("../assets/img/bg-mobile-fallback.jpg");
+    background-image: url("http://scd.es.rfi.fr/sites/espanol.filesrfi/imagecache/rfi_large_600_338/sites/images.rfi.fr/files/aefimagesnew/aef_image/agujero_negro.png");
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -5699,7 +5699,7 @@ blockquote {
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
-    background-image: url("../assets/img/bg-mobile-fallback.jpg");
+    background-image: url("http://scd.es.rfi.fr/sites/espanol.filesrfi/imagecache/rfi_large_600_338/sites/images.rfi.fr/files/aefimagesnew/aef_image/agujero_negro.png");
     box-shadow: -18px 18px 30px -13px rgba(0, 0, 0, .1);
 }
 .what-intro {
