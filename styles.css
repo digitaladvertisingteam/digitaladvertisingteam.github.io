@@ -5682,7 +5682,7 @@ blockquote {
 .container-img-2 {
     height: 500px;
     margin-top: -55px;
-    background-image: url("https://assets.website-files.com/5b23ab65932c87c0422b4f6d/5b23db5e6f08f7463ae8a7c9_expertise-top-view.jpg");
+    background-image: url("../assets/img/bg-mobile-fallback.jpg");
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -5699,7 +5699,7 @@ blockquote {
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
-    background-image: url("https://assets.website-files.com/5b23ab65932c87c0422b4f6d/5b72df670ad2958cb4fd7460_photo-studio-plan-large.jpg");
+    background-image: url("../assets/img/bg-mobile-fallback.jpg");
     box-shadow: -18px 18px 30px -13px rgba(0, 0, 0, .1);
 }
 .what-intro {
