@@ -2411,7 +2411,7 @@ blockquote {
     background-attachment: fixed, scroll;
 }
 .container-image-header.large.studio {
-    background-image: url("https://assets.website-files.com/5b23ab65932c87c0422b4f6d/5b7d213f0cb91b0f67ce96e3_studio-photo-banner.jpg");
+    background-image: url("../assets/img/diseño-web.jpeg");
     background-size: cover;
 }
 .container-image-header.large.contact {
