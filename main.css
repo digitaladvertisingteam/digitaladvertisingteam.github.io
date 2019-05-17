@@ -331,7 +331,7 @@
     height: 8px;
   }
 .heading.right{
-      padding-bottom:100px;
+      margin-bottom:100px;
 }
 .row-footer{
     display: flex;
