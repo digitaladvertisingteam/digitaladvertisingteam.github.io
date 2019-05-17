@@ -347,7 +347,7 @@
     justify-content: center;
     align-items: center;
  }
- col-footer{
+ .col-footer{
       display: flex;
       flex-direction: column;
     justify-content: center;
