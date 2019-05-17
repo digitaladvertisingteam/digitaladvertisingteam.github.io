@@ -339,22 +339,14 @@
     justify-content: center;
     align-items: center;
 }
-.container-heading-section.right.what{
-      padding-bottom: 10px;
-
-.row-footer-2 {
-    width: 85%;
-    margin-top: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
- }
-.row-footer .col-footer{
+.col-footer{
       padding-top:100px;
       display: flex;
       flex-direction: column;
-    justify-content: center;
-    align-items: center;
-      
-      }
+      justify-content: center;
+      align-items: center;  
+   }
+.container-heading-section.right.what{
+      padding-bottom: 10px;
+}
+
