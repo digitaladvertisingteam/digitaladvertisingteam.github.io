@@ -8,7 +8,7 @@
   }
   
   ::-webkit-scrollbar-thumb {
-    background:#F1592A ; 
+    background: #f15a29; 
   }
   
   ::-webkit-scrollbar-thumb:hover {
@@ -122,13 +122,13 @@
   
   /* CUSTOM SELECTION */ 
     
-  ::selection {background: #F1592A;color:#ebebeb;}
+  ::selection {background: #f15a29;color:#ebebeb;}
   ::-moz-selection {
-    background: #F1592A;
+    background: #f15a29;
     color:#ebebeb;
     }
     .line-btn.horizontal:hover{
-      background: #F1592A !important;
+      background: #f15a29 !important;
     }
    /* INSTAGRAM*/
     
@@ -199,12 +199,12 @@
     
     
     #menu li.active a .line-link{
-      background-color:#F1592A;
+      background-color:#f15a29;
       width:100%;
     }
     
     #menu li.active .bonus-text{
-     color:#F1592A!important;
+     color:#f15a29 !important;
     }
     
     .w-slider-dot { background: rgba(251, 251, 251, 0.3);
@@ -303,7 +303,7 @@
   }
   .bar 
   { 
-    background-color: #F1592A; 
+    background-color: #f15a29; 
     width:0%; 
     height:5px; 
     border-radius: 3px; 
@@ -322,7 +322,7 @@
   }
   
   #nprogress .bar {
-    background: #F1592A;
+    background: #f15a29;
     position: fixed;
     z-index: 1031;
     top: 0;
