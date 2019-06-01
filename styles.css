@@ -3677,7 +3677,7 @@ blockquote {
     opacity: 0.3;
 }
 .logo {
-    width: 100%;
+    width: 80%;
     max-width: 15em; /*Ancho del Logo*/
     -webkit-transform: perspective(176px);
     transform: perspective(176px);
