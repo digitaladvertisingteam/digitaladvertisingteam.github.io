@@ -10248,6 +10248,7 @@ html.w-mod-js *[data-ix="content-slide-from-left"] {
         -ms-transform: rotate(-90deg) translate(25px, 0px);
         transform: rotate(-90deg) translate(25px, 0px);
         font-size: 12px;
+        margin-bottom: 30px;
     }
     .wrapper-work {
         -webkit-box-orient: vertical;
