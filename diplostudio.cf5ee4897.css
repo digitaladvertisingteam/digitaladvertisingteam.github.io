@@ -1437,7 +1437,8 @@ blockquote {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  color: #1e2326;
+  background-color: #F1592A;
+  color: #fff;
 }
 
 .container-heading-footer {
