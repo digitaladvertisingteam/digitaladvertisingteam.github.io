@@ -149,19 +149,19 @@ section {
 }
 
 .sidemenu .menu01:hover span {
-    color: #fff200;
+    color:#F1592A;
 }
 
 .sidemenu .menu02:hover span {
-    color: #4ff0d4;
+    color: #F1592A;
 }
 
 .sidemenu .menu03:hover span {
-    color: #ed145b;
+    color: #F1592A;
 }
 
 .sidemenu .menu04:hover span {
-    color: #0292c7;
+    color: #F1592A;
 }
 
 .sidemenu:hover {
