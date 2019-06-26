@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'MinionPro-Bold';
+    font-family: 'MinionPro-Semibold';
+    font-family: 'MyriadPro-Bold';
+    font-family: 'MyriadPro-Light';
+    font-family: 'MyriadPro-Regular';
+    font-family: 'MyriadPro-Semibold';
+    src: url(assets/Fonts/MinionPro-Bold.otf);
+    src: url(assets/Fonts/MinionPro-Semibold.otf);
+    src: url(assets/Fonts/MyriadPro-Bold.otf);
+    src: url(assets/Fonts/MyriadPro-Light.otf);
+    src: url(assets/Fonts/MyriadPro-Regular.otf);
+    src: url(assets/Fonts/MyriadPro-Semibold.otf);
+}
+body {
+    font-family: 'Source Sans Pro';
+    background: #000;
+}
+
+/* CUSTOM SCROLLBAR */ 
+
+.h{
+    border-top: 3px solid #F1592A;
+    width: 50px;
+    position: relative;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+hr{
+    height: 3px;
+    width: 100%;
+    background-color: #F1592A;
+}
+span{
+    color: #F1592A;
+    font-size: 0.8em;
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+background: #1E2427; 
+}
+
+::-webkit-scrollbar-thumb {
+background:#F1592A ; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #fff; 
+}
+.masthead {
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    overflow: hidden;
+}
+.masthead .container {
+    position: relative;
+    z-index: 2;
+}
+.masthead .container {
+    position: relative;
+    z-index: 2;
+  }
+
+/*@media (min-width: 992px) {
+    .masthead {
+        height: 100vh;
+    }
+    .masthead h1 {
+        font-family: 'MyriadPro-Semibold';
+    }
+    .about{
+        text-align: right;
+    }
+}*/
+.masthead video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 1;
+}
+.content-section {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+.orange{
+    background: #F1592A;
+}
+footer.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+  
+footer.footer .social-link {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #000;
+    -webkit-transition: background-color 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out;
+    -webkit-box-shadow: 0 3px 3px 0 #F1592A;
+    box-shadow: 0 3px 3px 0 #F1592A;
+}
+
+footer.footer .social-link:hover {
+    background-color: #F1592A;
+    text-decoration: none;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover, a:focus, a:active {
+color: #000;
+text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #F1592A !important;
+    border-color: #F1592A !important;
+    color: #fff !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color:#fff;
+    background-color: #000 !important;
+    border-color: #fff !important;
+}
+@media (min-width: 992px) {
+    .masthead {
+        height: 100vh;
+    }
+    .masthead h1 {
+        font-family: 'MyriadPro-Semibold';
+    }
+    .about{
+        text-align: right;
+    }
+    .colserv1{
+        padding: 15px 15px;
+        border: 1px solid #6c757d;
+        width: 50px;
+    }
+    .colserv2{
+        padding: 15px 15px;
+        border: 1px solid #6c757d;
+        width: 50px;
+    }
+    .colserv3{
+        padding: 15px 15px;
+        border: 1px solid #6c757d;
+        width: 50px;
+    }
+    .colserv4{
+        padding: 15px 15px;
+        border: 1px solid #6c757d;
+        width: 50px;
+    }
+}
+@media (max-width: 576px) { 
+    .content-section {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+ }

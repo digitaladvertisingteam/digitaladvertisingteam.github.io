@@ -1,0 +1,125 @@
+.img-frame {
+    overflow: hidden
+}
+.img-frame img {
+    width: 100% !important;
+    height: 100% !important
+}
+.img-frame .imgs{
+    width: 50%;
+    height: 100% !important;
+}
+.teamlist .item {
+    position: relative;
+    width: 25%
+}
+.teamlist .item .image-wrapper {
+    position: relative
+}
+.teamlist .item .image-wrapper:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out
+}
+.teamlist .item .image-wrapper .image1 {
+    position: relative;
+    opacity: 1
+}
+.teamlist .item .image-wrapper .image2 {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+.teamlist .item .content-wrapper {
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    color: #f0f0f0;
+    font-family: 'rubiklight', sans-serif;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out
+}
+.teamlist .item .content-wrapper h3 {
+    color: #f0f0f0;
+    font-family: 'rubiklight', sans-serif
+}
+.teamlist .item .content-wrapper small {
+    text-transform: uppercase
+}
+.teamlist .item:hover .image-wrapper:after {
+    background: rgba(0, 0, 0, 0)
+}
+.teamlist .item:hover .image-wrapper .image1 {
+    opacity: 0
+}
+.teamlist .item:hover .image-wrapper .image2 {
+    display: block
+}
+.teamlist .item:hover .content-wrapper {
+    opacity: 0
+}
+.teamlist .item.item-white {
+    background: #F1592A;
+    z-index: 0
+}
+.teamlist .item.item-white .content-wrapper {
+    background: transparent;
+    font-size: 1.3rem;
+    font-family: "rubikbold", sans-serif;
+    line-height: 1.4;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    position: relative;
+    color: #fff;
+}
+.teamlist .item.item-white .content-wrapper:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 2rem;
+    width: 32px;
+    height: 17px;
+    background: url(../images/icons/comment-black.svg);
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+.teamlist .item.item-white:hover .content-wrapper {
+    opacity: 1
+}
+.teamlist .item:nth-child(16n+5),
+.teamlist .item:nth-child(16n+16) {
+    margin-top: -50px
+}
+@media only screen and (max-width: 991px) {
+    .teamlist .item {
+        width: 50%
+    }
+    .teamlist .item .content-wrapper h3 {
+        font-size: 2em
+    }
+    .teamlist .item .content-wrapper small {
+        font-size: 0.8rem
+    }
+    .teamlist .item.item-white .content-wrapper {
+        padding-bottom: 100px
+    }
+}
+@media only screen and (max-width: 575px) {
+    .teamlist .item {
+        width: 100%
+    }
+}
+
+/*# sourceMappingURL=layout.css.map */
