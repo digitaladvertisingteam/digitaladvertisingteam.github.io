@@ -16,11 +16,49 @@ body {
     font-family: 'Source Sans Pro';
     background: #000;
 }
-
+.navbar {
+    padding: 0.7rem 1rem;
+    
+    font-size: 1rem;
+    
+    letter-spacing: 0.1rem;
+    transition: background-color 0.5s ease 0s;
+  }
+  
+  .navbar-brand img {
+    height: 2rem;
+  }
+  
+  
+  i {
+    color: #FFF;
+    font-size: 1.6rem;
+  }
+  
+  .navbar-nav li {
+    padding-right: 0.8rem;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .navbar-nav .nav-link {
+    color: rgba(255,255,255,0.7);
+    padding-top: 0.8rem;
+  }
+  
+  .navbar-nav .nav-link.active,.navbar-nav .nav-link:hover{
+    color: #FFF;
+  }
+  
+  .navbar.solid {
+    background: rgb(241, 90, 41) !important;
+    transition: background-color 1s ease 0s;
+  }
+  
 /* CUSTOM SCROLLBAR */ 
 
 .h{
-    border-top: 3px solid #F1592A;
+    border-top: 3px solid rgb(241, 90, 41);
     width: 50px;
     position: relative;
     margin-top: 25px;
@@ -29,10 +67,10 @@ body {
 hr{
     height: 3px;
     width: 100%;
-    background-color: #F1592A;
+    background-color: rgb(241, 90, 41);
 }
 span{
-    color: #F1592A;
+    color: rgb(241, 90, 41);
     font-size: 0.8em;
 }
 ::-webkit-scrollbar {
@@ -43,7 +81,7 @@ background: #1E2427;
 }
 
 ::-webkit-scrollbar-thumb {
-background:#F1592A ; 
+background:rgb(241, 90, 41); 
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -108,7 +146,7 @@ header .overlay {
     padding-bottom: 7.5rem;
 }
 .orange{
-    background: #F1592A;
+    background: rgb(241, 90, 41);
 }
 footer.footer {
     padding-top: 5rem;
@@ -124,12 +162,12 @@ footer.footer .social-link {
     background-color: #000;
     -webkit-transition: background-color 0.15s ease-in-out;
     transition: background-color 0.15s ease-in-out;
-    -webkit-box-shadow: 0 3px 3px 0 #F1592A;
-    box-shadow: 0 3px 3px 0 #F1592A;
+    -webkit-box-shadow: 0 3px 3px 0 #fff;
+    box-shadow: 0 3px 3px 0 #fff;
 }
 
 footer.footer .social-link:hover {
-    background-color: #F1592A;
+    background-color: rgba(241, 89, 41,0.7);
     text-decoration: none;
 }
 
@@ -143,8 +181,8 @@ text-decoration: none;
 }
 
 .btn-primary {
-    background-color: #F1592A !important;
-    border-color: #F1592A !important;
+    background-color: rgb(241, 90, 41) !important;
+    border-color: rgb(241, 90, 41) !important;
     color: #fff !important;
 }
 

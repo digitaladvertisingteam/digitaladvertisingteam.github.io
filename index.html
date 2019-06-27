@@ -30,6 +30,7 @@
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <!--Simple icons-->
     <link href="./css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
@@ -48,6 +49,33 @@
 </head>
 <body>
     <!-- Navigation -->
+    <nav id="nav-bar" class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+              <a  id="header-img" class="navbar-brand" href="#"><img src="./assets/img/Logo_horizontal_DAT_blanco.svg"></a>
+              <button id="hamburguer" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a href="#servicios" class="nav-link">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#proceso" class="nav-link">Proceso</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#clientes" class="nav-link">Clientes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#colaboradores" class="nav-link">Colaboradores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                   </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     
 
     <header class="masthead">
@@ -69,8 +97,8 @@
         <!--a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a-->
     </header>
 
-    <section class="content-section servicios text-white">
-        <div class="container pb-5">
+    <section class="content-section servicios text-white" id="servicios">
+        <div class="container pb-5" >
             <div class="title text-left my-auto d-flex pt-5">
                 <div class="h"></div>
                 <h2 class="dat pt-1">Servicios</h2>
@@ -155,7 +183,7 @@
                 </div>
             </div>
     </section>
-    <section class="content-section proceso text-white">
+    <section class="content-section proceso text-white" id="proceso">
         <div class="container pb-5">
             <div class="title text-left my-auto d-flex pt-5">
                 <div class="h"></div>
@@ -250,7 +278,7 @@
             </div>
         </div>
     </section>
-    <section class="content-section clientes">
+    <section class="content-section clientes" id="clientes">
         <div class="container pb-5">
             <div class="title text-left my-auto text-white d-flex pt-5">
                 <div class="h"></div>
@@ -291,7 +319,7 @@
             </div>
             </div>
     </section>
-    <section class="content-section colaboradores">
+    <section class="content-section colaboradores" id="colaboradores">
         <div class="container pb-5">
             <div class="title text-left my-auto text-white d-flex pt-5">
                 <div class="h"></div>
@@ -344,19 +372,24 @@
             </div>
     </section>
 
-    <section class="content-section orange">
+    <!--section class="content-section orange contacto" id="contacto">
         <div class="container text-center text-white">
             <h2 class="wow fadeInDown pb-5 pt-5">Cuéntanos sobre tu proyecto</h2>
             <img class="img-fuid wow fadeInUp" src="assets/img/social media.jpeg" alt="" width="80%">
-            <h2 class="wow fadeInDown pt-5 pb-5">Contacto</h2>
+            <h2 class="wow fadeInDown pt-5">Contacto</h2>
             <img class="img-fuid wow fadeInUp" src="assets/img/Logo Digital Advertising Team.svg" alt="" width="30%">
             <a class=" pt-5 pb-3 wow fadeInUp" style="display:block" href="mailto:contacto@digitaladvertisingteam.com.mx"><i class="icon-envelope"></i> contacto@digitaladvertisingteam.com.mx</a>
             <a class=" pt-3 pb-5 wow fadeInUp" style="display:block" href="tel:7291656567"><i class="icon-phone"></i> 72916.56567</a>
         </div>
-    </section>
+    </section-->
     <!-- Footer -->
-    <footer class="footer text-center">
+    <footer class="footer orange text-center text-white">
         <div class="container">
+                <h2 class="wow fadeInDown pb-5 pt-5">Cuéntanos sobre tu proyecto</h2>
+
+            <img class="img-fuid wow fadeInUp " src="assets/img/Logo Digital Advertising Team.svg" alt="" width="20%">
+            <a class=" pt-5 pb-3 wow fadeInUp" style="display:block" href="mailto:contacto@digitaladvertisingteam.com.mx"><i class="icon-envelope"></i> contacto@digitaladvertisingteam.com.mx</a>
+            <a class=" pt-3 pb-5 wow fadeInUp" style="display:block" href="tel:7291656567"><i class="icon-phone"></i> 72916.56567</a>
             <ul class="list-inline mb-5">
                 <li class="list-inline-item">
                     <a class="social-link text-white mr-3" href="https://www.facebook.com/Digital-Advertising-Team-390669248156590/" target="_blank"">
@@ -379,9 +412,10 @@
                     </a>
                 </li>
             </ul>
-            <p class="text-muted small mb-0">Copyright &copy; Digital Advertising Team 2019</p>
+            <p class=" small mb-0">Copyright &copy; Digital Advertising Team 2019</p>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -389,6 +423,7 @@
     <!-- Icons -->
     <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
 
+    <script src="js/main.js"></script>
     <!-- Animate -->
     <script src="./js/wow.min.js"></script>
     <script>
