@@ -185,15 +185,16 @@ text-decoration: none;
     }
 }
 @media (max-width: 576px) { 
-    .masthead h1{
-        font-size:1.5em;
-    }
     .h{
         width: 30px;
         position: relative;
         margin-top: 15px;
         margin-right: 5px;
     }
+    .masthead h1{
+        font-size:1.5em;
+    }
+    
     .content-section {
         padding-top: 5rem;
         padding-bottom: 5rem;
