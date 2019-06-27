@@ -188,11 +188,17 @@ text-decoration: none;
     .masthead h1{
         font-size:1.5em;
     }
+    .h{
+        width: 30px;
+        position: relative;
+        margin-top: 15px;
+        margin-right: 5px;
+    }
     .content-section {
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
     .colserv1,.colserv2, .colserv3, .colserv4{
-        padding-top: 20px;
+        padding-top: 40px;
     }
  }
