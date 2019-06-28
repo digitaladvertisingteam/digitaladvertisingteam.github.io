@@ -12,13 +12,28 @@
     src: url(assets/Fonts/MyriadPro-Regular.otf);
     src: url(assets/Fonts/MyriadPro-Semibold.otf);
 }
-body{
+        
+
+body {
     font-family: 'Source Sans Pro';  
-    background-image: url('../assets/img/Network\ Digital\ Advertising\ Team.png');
+    background-color: #000; 
+    background-image: url('https://189hvw2xdty1mpv12l7kv3dm-wpengine.netdna-ssl.com/wp-content/uploads/img_1-1.png');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100% auto;
-    background-color: #000;           
+    z-index: -1;
+}
+@media only screen and (max-width: 1099px) {
+    body {
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    body {
+        background-image: url('https://189hvw2xdty1mpv12l7kv3dm-wpengine.netdna-ssl.com/wp-content/uploads/img_1-1.png');
+        background-size: cover;
+    }
 }
 
 .navbar {
@@ -99,15 +114,6 @@ background: #fff;
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    overflow: hidden;
-}
-.masthead .container {
-    position: relative;
-    z-index: 2;
-}
-.masthead .container {
-    position: relative;
-    z-index: 2;
 }
 
 /*@media (min-width: 992px) {
