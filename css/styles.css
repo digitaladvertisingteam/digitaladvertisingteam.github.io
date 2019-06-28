@@ -13,27 +13,16 @@
     src: url(assets/Fonts/MyriadPro-Semibold.otf);
 }
 body{
-    font-family: 'Source Sans Pro';
-    background: #000;
-    background-image: url('../assets/img/Network Digital Advertising Team.PNG');
-            background-repeat: repeat;
-            background-position: top center;
-            background-size: 100% auto;
-            background-color:         }
-        @media only screen and (max-width: 1099px) {
-            body {
-                background-size: cover;
-            }
-        }
-
-
-        @media only screen and (max-width: 1023px) {
-            body {
-                background-image: url('../assets/img/Network Digital Advertising Team.PNG');
-                background-size: cover;
-            }
-        }   
+        font-family: 'Source Sans Pro';
+        
+        background-image: url('../assets/img/Network Digital Advertising Team.PNG');
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 100% auto;
+        background-color: #000;      
 }
+   
+
 .navbar {
     padding: 0.7rem 1rem;
     
