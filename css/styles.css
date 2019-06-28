@@ -17,7 +17,7 @@
 body {
     font-family: 'Source Sans Pro';  
     background-color: #000; 
-    background-image: url('https://189hvw2xdty1mpv12l7kv3dm-wpengine.netdna-ssl.com/wp-content/uploads/img_1-1.png');
+    background-image: url('../assets/img/Network\ Digital\ Advertising\ Team.png');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100% auto;
@@ -31,7 +31,7 @@ body {
 
 @media only screen and (max-width: 1023px) {
     body {
-        background-image: url('https://189hvw2xdty1mpv12l7kv3dm-wpengine.netdna-ssl.com/wp-content/uploads/img_1-1.png');
+        background-image: url('../assets/img/Network\ Digital\ Advertising\ Team.png');
         background-size: cover;
     }
 }
