@@ -13,31 +13,12 @@
     src: url(assets/Fonts/MyriadPro-Semibold.otf);
 }
 body{
-        font-family: 'Source Sans Pro';  
-        background-image: url('../assets/img/Network Digital Advertising Team.PNG');
-        background-repeat: repeat;
-        background-position: top center;
-        background-size: 100% auto;
-        background-color: #000;      
-}
-@media (max-width: 1099px) {
-    body {
-        background-size: cover;
-    }
-}
-@media (max-width: 1023px) {
-    body {
-        background-image: url('../assets/img/Network Digital Advertising Team.PNG');
-        
-        background-size: cover;
-    }
-}   
-@media (max-width: 576px){
-    body {
-        background-image: url('../assets/img/Network Digital Advertising Team.PNG');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+    font-family: 'Source Sans Pro';  
+    background-image: url('../assets/img/Network Digital Advertising Team.PNG');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+    background-color: #000;           
 }
 
 .navbar {
@@ -167,6 +148,10 @@ header .overlay {
 .content-section {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
+    background-image: url('../assets/img/Network Digital Advertising Team.PNG');
+    background-repeat: repeat;
+    background-position: top center;
+    background-size: 100% auto;
 }
 .orange{
     background: rgb(241, 90, 41);
@@ -174,6 +159,10 @@ header .overlay {
 footer.footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
+    background-image: url('../assets/img/Network Digital Advertising Team.PNG');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
 }
   
 footer.footer .social-link {
