@@ -12,9 +12,27 @@
     src: url(assets/Fonts/MyriadPro-Regular.otf);
     src: url(assets/Fonts/MyriadPro-Semibold.otf);
 }
-body {
+body{
     font-family: 'Source Sans Pro';
     background: #000;
+    background-image: url('../assets/img/Network Digital Advertising Team.PNG');
+            background-repeat: repeat;
+            background-position: top center;
+            background-size: 100% auto;
+            background-color:         }
+        @media only screen and (max-width: 1099px) {
+            body {
+                background-size: cover;
+            }
+        }
+
+
+        @media only screen and (max-width: 1023px) {
+            body {
+                background-image: url('../assets/img/Network Digital Advertising Team.PNG');
+                background-size: cover;
+            }
+        }   
 }
 .navbar {
     padding: 0.7rem 1rem;
@@ -28,8 +46,7 @@ body {
   .navbar-brand img {
     height: 2rem;
   }
-  
-  
+
   i {
     color: #FFF;
     font-size: 1.6rem;
@@ -104,7 +121,7 @@ background: #fff;
 .masthead .container {
     position: relative;
     z-index: 2;
-  }
+}
 
 /*@media (min-width: 992px) {
     .masthead {
@@ -117,7 +134,7 @@ background: #fff;
         text-align: right;
     }
 }*/
-.masthead video {
+/*.masthead video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -140,7 +157,7 @@ header .overlay {
     background-color: black;
     opacity: 0.7;
     z-index: 1;
-}
+}*/
 .content-section {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
