@@ -5,12 +5,12 @@
     font-family: 'MyriadPro-Light';
     font-family: 'MyriadPro-Regular';
     font-family: 'MyriadPro-Semibold';
-    src: url(assets/Fonts/MinionPro-Bold.otf);
-    src: url(assets/Fonts/MinionPro-Semibold.otf);
-    src: url(assets/Fonts/MyriadPro-Bold.otf);
-    src: url(assets/Fonts/MyriadPro-Light.otf);
-    src: url(assets/Fonts/MyriadPro-Regular.otf);
-    src: url(assets/Fonts/MyriadPro-Semibold.otf);
+    src: url(../assets/Fonts/MinionPro-Bold.otf);
+    src: url(../assets/Fonts/MinionPro-Semibold.otf);
+    src: url(../assets/Fonts/MyriadPro-Bold.otf);
+    src: url(../assets/Fonts/MyriadPro-Light.otf);
+    src: url(../assets/Fonts/MyriadPro-Regular.otf);
+    src: url(../assets/Fonts/MyriadPro-Semibold.otf);
 }
         
 
