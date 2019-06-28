@@ -13,15 +13,32 @@
     src: url(assets/Fonts/MyriadPro-Semibold.otf);
 }
 body{
-        font-family: 'Source Sans Pro';
-        
+        font-family: 'Source Sans Pro';  
         background-image: url('../assets/img/Network Digital Advertising Team.PNG');
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         background-position: top center;
         background-size: 100% auto;
         background-color: #000;      
 }
-   
+@media (max-width: 1099px) {
+    body {
+        background-size: cover;
+    }
+}
+@media (max-width: 1023px) {
+    body {
+        background-image: url('../assets/img/Network Digital Advertising Team.PNG');
+        
+        background-size: cover;
+    }
+}   
+@media (max-width: 576px){
+    body {
+        background-image: url('../assets/img/Network Digital Advertising Team.PNG');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
 
 .navbar {
     padding: 0.7rem 1rem;
