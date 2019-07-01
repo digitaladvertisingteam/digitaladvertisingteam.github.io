@@ -12,18 +12,32 @@
     src: url(../assets/Fonts/MyriadPro-Regular.otf);
     src: url(../assets/Fonts/MyriadPro-Semibold.otf);
 }
-        
-
 body {
     font-family: 'Source Sans Pro';  
     background-color: #000; 
+    z-index: -1;
+}
+.masthead {
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.masthead.home{
     background-image: url('../assets/img/Network\ Digital\ Advertising\ Team.png');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100% auto;
-    z-index: -1;
 }
-
+.masthead.web{
+    background-image: url('../assets/img/lines-dat.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 35% auto;
+}
 .navbar {
     padding: 0.7rem 1rem;
     
@@ -94,15 +108,7 @@ background:rgb(241, 90, 41);
 ::-webkit-scrollbar-thumb:hover {
 background: #fff; 
 }
-.masthead {
-    min-height: 30rem;
-    position: relative;
-    display: table;
-    width: 100%;
-    height: auto;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-}
+
 
 /*@media (min-width: 992px) {
     .masthead {
@@ -140,6 +146,10 @@ header .overlay {
     z-index: 1;
 }*/
 .content-section {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+.content-section.home {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
     background-image: url('../assets/img/Network\ Digital\ Advertising\ Team.png');
