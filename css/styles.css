@@ -32,7 +32,7 @@ body {
     background-position: top center;
     background-size: 100% auto;
 }
-header .masthead.web{
+header .web{
     background-image: url('../assets/img/lines-dat.svg');
     background-repeat: no-repeat;
     background-position: top center;
