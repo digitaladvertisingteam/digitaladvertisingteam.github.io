@@ -38,7 +38,7 @@ header .web{
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background-image: url('../assets/img/lines-dat.svg');
+    background-image: url('../../assets/img/lines-dat.svg');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 35% auto;
