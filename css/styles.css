@@ -17,7 +17,7 @@ body {
     background-color: #000; 
     z-index: -1;
 }
-.masthead {
+.masthead.home{
     min-height: 30rem;
     position: relative;
     display: table;
@@ -25,14 +25,19 @@ body {
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-}
-.masthead.home{
     background-image: url('../assets/img/Network\ Digital\ Advertising\ Team.png');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100% auto;
 }
 header .web{
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
     background-image: url('../assets/img/lines-dat.svg');
     background-repeat: no-repeat;
     background-position: top center;
