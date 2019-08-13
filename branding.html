@@ -23,7 +23,15 @@
   <link rel="canonical" href="https://www.digitaladvertisingteam.com.mx" />  
   <script type='text/javascript' src='jquery.js'></script> 
   <script src="menu.js"></script>
- 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100852356-11"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-100852356-11');
+  </script>
 </head>
 
 <body class="home page-template page-template-page-home page-template-page-home-php page page-id-3983 responsive-menu-pro-slide-left">
@@ -578,6 +586,73 @@ height="0" width="0" style="display:none;visibility:hidden" suppressedsrc="https
   </script-->
   <!--[if lte IE 9]> <script type='text/javascript' src='https://www.caroselling.it/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js'></script> <![endif]-->
   <script type="text/javascript" defer src="autoptimize_d79f3caed142cad1dcc7a24ccdd7aca9.js"></script>
+
+  <!-- Komito -->
+  <script src="https://komito.net/komito.js" async></script>
+  <script>
+    var _komito = _komito || {
+        'trackTwitter': 1,    // Tracks Twitter events if widget is presented on page.
+        'trackFacebook': 1,   // Tracks Facebook events if widget is presented on page.
+        'trackLinkedIn': 1,   // Tracks LinkedIn events if plugin is presented on page.
+        'trackDownloads': 1,  // Tracks files download links.
+        'trackOutbound': 1,   // Tracks outbound links.
+        'trackForms': 1,      // Tracks forms submissions.
+        'trackUsers': 1,      // Tracks pageviews by users logged in to social networks.
+        'trackActions': 1,    // Tracks 'mailto', 'tel', 'sms' and 'skype' actions.
+        'trackPrint': 1,      // Tracks page print actions.
+        'trackMedia': 1,      // Tracks HTML5 video, audio, Vimeo and YouTube players events.
+        'trackScroll': 1,     // Tracks scroll depth.
+        'trackOrientation': 1,// Tracks orientation change on mobile devices.
+        'trackAdblock': 0,    // Tracks page views with blocked ads. (Experimental)
+        'trackErrorPages': 0, // Tracks error pages. (Experimental)
+        'sendHeartbeat': 0,   // Sends heartbeat event. (Default interval 30 seconds)
+        'debugMode': 0,       // Prints all requests to console.
+        'nonInteraction': ['form', 'print', 'scroll', 'video', 'orientation', 'adblock'] // List of non interaction events.
+      };
+  </script>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v3.3'
+      });
+    };
+  
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script>
+  
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat"
+    attribution=setup_tool
+    minimized=true
+    page_id="390669248156590"
+    theme_color="#f15a29"
+    logged_in_greeting="¡Hola! ¿En que podemos ayudarte?"
+    logged_out_greeting="¡Hasta pronto!">
+  </div>
+   <!-- Linkedin code track -->
+  <script type="text/javascript">
+      _linkedin_partner_id = "1169714";
+      window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+      window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+      </script><script type="text/javascript">
+      (function(){var s = document.getElementsByTagName("script")[0];
+      var b = document.createElement("script");
+      b.type = "text/javascript";b.async = true;
+      b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);})();
+  </script>
+  <noscript>
+      <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=1169714&fmt=gif" />
+  </noscript>
 </body>
 
 </html>
