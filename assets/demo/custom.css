@@ -1,0 +1,45 @@
+.navbar{
+    background: #F15A29;
+}
+.line{
+    margin: 2px;
+    border: 1px solid #F15A29;
+}
+.WE{
+   color: #F15A29; 
+}
+h1.DAT{
+    font-size: 3em;
+}
+.card-body{
+    background: #fff;
+}
+.card-body .job-title{
+    color: #000;
+}
+.card-body.price{
+    background-color: rgba(0, 0, 0, 0.876);
+}
+.nav-pills.nav-pills-primary .nav-item .nav-link.active{
+    background: #F15A29;
+}
+.nav-pills.nav-pills-primary .nav-item .nav-link.active, .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus, .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover{
+    background: #F15A29;
+}
+
+.footer{
+    border-top: 2px solid #fff;
+    background: #F15A29;
+}
+
+@media(max-width: 576px) {
+    h1.DAT{
+        font-size: 2.5em;
+    }
+    h2.subtitle-DAT{
+        font-size: 1.5em;
+    }
+    .logo-footer{
+        width: 50%;
+    }
+}
