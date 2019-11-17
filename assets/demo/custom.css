@@ -11,6 +11,10 @@
 h1.DAT{
     font-size: 3em;
 }
+h2.title-academy{
+    font-size: 5em;  
+}
+/*
 .card-body{
     background: #fff;
 }
@@ -41,5 +45,11 @@ h1.DAT{
     }
     .logo-footer{
         width: 50%;
+    }
+}
+*/
+@media(max-width: 576px) {
+    h2.title-academy{
+        font-size: 3em;  
     }
 }
