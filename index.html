@@ -951,6 +951,7 @@
   </script>
 
   <!-- Load Facebook SDK for JavaScript -->
+  <!--
   <div id="fb-root"></div>
   <script>
     window.fbAsyncInit = function() {
@@ -968,8 +969,9 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
   </script>
-  
+  -->
   <!-- Your customer chat code -->
+  <!--
   <div class="fb-customerchat"
     attribution=setup_tool
     minimized=true
@@ -978,7 +980,10 @@
     logged_in_greeting="¡Hola! ¿En que podemos ayudarte?"
     logged_out_greeting="¡Hasta pronto!">
   </div>
-
+  -->
+  <!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5981938.js"></script>
+<!-- End of HubSpot Embed Code -->
   <!-- Linkedin code track -->
   <script type="text/javascript">
     _linkedin_partner_id = "1169714";
@@ -995,54 +1000,7 @@
     <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=1169714&fmt=gif" />
   </noscript>
 
-  <!--script>
-    $(document).ready(function() {
 
-      // Facebook Pixel Code Don't Delete
-      ! function(f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function() {
-          n.callMethod ?
-            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = '2.0';
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s)
-      }(window,
-        document, 'script', '//connect.facebook.net/en_US/fbevents.js');
-
-      try {
-        fbq('init', '111649226022273');
-        fbq('track', "PageView");
-
-      } catch (err) {
-        console.log('Facebook Track Error:', err);
-      }
-
-
-      //
-      //
-
-    });
-  </script>
-  <noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=111649226022273&ev=PageView&noscript=1" />
-  </noscript>
-  <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
-  <script>
-    window.TrackJS &&
-      TrackJS.install({
-        token: "ee6fab19c5a04ac1a32a645abde4613a",
-        application: "black-dashboard-pro"
-      });
-  </script-->
 </body>
 
 </html>
