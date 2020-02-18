@@ -6584,8 +6584,10 @@ body.visible {
 }
 @media screen and (max-width:767px) {
     #page-header.contact h2 {
-        font-size: 5rem;
-        line-height: 1.2
+        font-size: 3rem;
+        line-height: 1.2;
+        padding-bottom: 10px;
+
     }
 }
 #page-header.contact h4 {
