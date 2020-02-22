@@ -3080,6 +3080,11 @@ img[class~=center] {
     padding-top: 75px!important;
     padding-bottom: 75px!important
 }
+.WPCollage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media (min-width:576px) {
     .p-sm-15 {
         padding: 15px!important
