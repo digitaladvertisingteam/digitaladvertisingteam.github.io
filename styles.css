@@ -2775,6 +2775,9 @@ h6.title:hover {
 h1 {
     font-size: 1.25rem
 }
+h1.curso{
+    font-size: 3rem
+}
 .h2,
 h2 {
     font-size: 1.875rem;
