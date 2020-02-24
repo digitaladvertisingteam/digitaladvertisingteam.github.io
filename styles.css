@@ -8120,6 +8120,13 @@ html:lang(it) section.about-wrap .section-title {
     background-color: #f15a29;
     -webkit-box-shadow: inset 0 0 6px #f15b29c5;
 }
+ul.beneficios li{
+    display: block;
+    padding: 10px;
+}
+ul.beneficios li:hover{
+    color:#111111
+}
 footer {
     position: relative;
     z-index: 2
